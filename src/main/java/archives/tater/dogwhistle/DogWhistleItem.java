@@ -24,7 +24,7 @@ public class DogWhistleItem extends Item {
         ItemStack itemStack = user.getStackInHand(hand);
         if (world.isClient) return TypedActionResult.success(itemStack);
 
-        int range = getRange();
+        int range = getRange(itemStack);
         List<WolfEntity> wolves = world.getEntitiesByType(EntityType.WOLF, new Box(user.getBlockPos().add(-range, -range, -range), user.getBlockPos().add(range, range, range)), entity -> entity.isOwner(user) && isWolfAffected(entity));
         if (wolves.isEmpty()) {
             user.sendMessage(Text.translatable("item.dogwhistle.dog_whistle.nonefound"), true);
@@ -42,7 +42,8 @@ public class DogWhistleItem extends Item {
         return TypedActionResult.success(itemStack);
     }
 
-    protected int getRange() {
+    // Enchantments in the future?
+    protected int getRange(ItemStack itemStack) {
         return 64;
     }
 
