@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dogwhistle:item/pink_dog_whistle"
+  }
+}

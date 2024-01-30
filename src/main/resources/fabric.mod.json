@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "dogwhistle",
+	"version": "${version}",
+	"name": "DogWhistle",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"The Potato Archivist"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dogwhistle/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"archives.tater.dogwhistle.DogWhistle"
+		],
+		"client": [
+			"archives.tater.dogwhistle.DogWhistleClient"
+		],
+		"fabric-datagen": [
+          "archives.tater.dogwhistle.datagen.DogWhistleDataGenerator"
+		]
+	},
+	"mixins": [
+		"dogwhistle.mixins.json",
+		{
+			"config": "dogwhistle.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "item.dogwhistle.black_dog_whistle": "Black Dog Whistle",
+  "item.dogwhistle.blue_dog_whistle": "Blue Dog Whistle",
+  "item.dogwhistle.brown_dog_whistle": "Brown Dog Whistle",
+  "item.dogwhistle.cyan_dog_whistle": "Cyan Dog Whistle",
+  "item.dogwhistle.dog_whistle": "Dog Whistle",
+  "item.dogwhistle.dog_whistle.nonefound": "No dogs were found in the range",
+  "item.dogwhistle.dog_whistle.sit": "All dogs were sat",
+  "item.dogwhistle.dog_whistle.summon": "All dogs were summoned",
+  "item.dogwhistle.gray_dog_whistle": "Gray Dog Whistle",
+  "item.dogwhistle.green_dog_whistle": "Green Dog Whistle",
+  "item.dogwhistle.light_blue_dog_whistle": "Light Blue Dog Whistle",
+  "item.dogwhistle.light_gray_dog_whistle": "Light Gray Dog Whistle",
+  "item.dogwhistle.lime_dog_whistle": "Lime Dog Whistle",
+  "item.dogwhistle.magenta_dog_whistle": "Magenta Dog Whistle",
+  "item.dogwhistle.orange_dog_whistle": "Orange Dog Whistle",
+  "item.dogwhistle.pink_dog_whistle": "Pink Dog Whistle",
+  "item.dogwhistle.purple_dog_whistle": "Purple Dog Whistle",
+  "item.dogwhistle.red_dog_whistle": "Red Dog Whistle",
+  "item.dogwhistle.white_dog_whistle": "White Dog Whistle",
+  "item.dogwhistle.yellow_dog_whistle": "Yellow Dog Whistle",
+  "itemGroup.dogwhistle.dog_whistles": "Dog Whistles"
+}
