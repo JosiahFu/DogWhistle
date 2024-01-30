@@ -9,5 +9,7 @@ public class DogWhistleDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 		pack.addProvider(EnglishLangGenerator::new);
 		pack.addProvider(ModelGenerator::new);
+		pack.addProvider(RecipeGenerator::new);
+		pack.addProvider(TagGenerator::new);
 	}
 }

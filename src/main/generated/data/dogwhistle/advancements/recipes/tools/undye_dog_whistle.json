@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dyed_dog_whistle": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "dogwhistle:dyed_dog_whistles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dogwhistle:undye_dog_whistle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dyed_dog_whistle",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dogwhistle:undye_dog_whistle"
+    ]
+  },
+  "sends_telemetry_event": false
+}

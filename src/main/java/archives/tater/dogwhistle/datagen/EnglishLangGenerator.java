@@ -5,9 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.util.DyeColor;
 
-import java.util.Arrays;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 import static java.util.Map.entry;
 
@@ -23,6 +21,7 @@ public class EnglishLangGenerator extends FabricLanguageProvider {
         translationBuilder.add(DogWhistle.DOG_WHISTLE.getTranslationKey() + ".summon", "All dogs were summoned");
         translationBuilder.add(DogWhistle.DOG_WHISTLE.getTranslationKey() + ".nonefound", "No dogs were found in the range");
 
+        translationBuilder.add("itemGroup.dogwhistle.dog_whistles", "Dog Whistles");
 
         DogWhistle.DYED_DOG_WHISTLES.forEach(((dyeColor, item) -> translationBuilder.add(item, COLOR_NAMES.get(dyeColor) + " Dog Whistle")));
     }

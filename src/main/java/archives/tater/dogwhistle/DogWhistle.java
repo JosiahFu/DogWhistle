@@ -5,9 +5,10 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.tag.TagKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
@@ -52,6 +53,9 @@ public class DogWhistle implements ModInitializer {
                 })
                 .build()
     );
+
+    public static final TagKey<Item> DOG_WHISTLES_TAG = TagKey.of(RegistryKeys.ITEM, new Identifier(MOD_ID, "dog_whistles"));
+    public static final TagKey<Item> DYED_DOG_WHISTLES_TAG = TagKey.of(RegistryKeys.ITEM, new Identifier(MOD_ID, "dyed_dog_whistles"));
 
     @Override
     public void onInitialize() {

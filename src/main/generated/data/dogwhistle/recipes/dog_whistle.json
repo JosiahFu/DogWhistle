@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo"
+    },
+    "%": {
+      "item": "minecraft:bone"
+    }
+  },
+  "pattern": [
+    "  #",
+    " # ",
+    "%  "
+  ],
+  "result": {
+    "item": "dogwhistle:dog_whistle"
+  },
+  "show_notification": true
+}

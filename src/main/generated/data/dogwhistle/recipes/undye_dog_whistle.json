@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "tag": "dogwhistle:dyed_dog_whistles"
+    }
+  ],
+  "result": {
+    "item": "dogwhistle:dog_whistle"
+  }
+}
