@@ -3,13 +3,13 @@
 	"id": "dogwhistle",
 	"version": "${version}",
 	"name": "DogWhistle",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A dog whistle to summon your dogs!",
 	"authors": [
 		"The Potato Archivist"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/dogwhistle/",
+		"sources": "https://github.com/JosiahFu/DogWhistle"
 	},
 	"license": "MIT",
 	"icon": "assets/dogwhistle/icon.png",
