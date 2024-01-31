@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "dogwhistle:item/light_blue_dog_whistle"
+    "layer0": "dogwhistle:item/dog_whistle",
+    "layer1": "dogwhistle:item/light_blue_dog_whistle_overlay"
   }
 }
