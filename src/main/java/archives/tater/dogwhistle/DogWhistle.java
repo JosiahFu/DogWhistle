@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.text.Text;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
@@ -53,6 +54,9 @@ public class DogWhistle implements ModInitializer {
                 })
                 .build()
     );
+
+    public static Identifier DOG_WHISTLE_SOUND_ID = new Identifier(MOD_ID, "dog_whistle");
+    public static final SoundEvent DOG_WHISTLE_SOUND = Registry.register(Registries.SOUND_EVENT, DOG_WHISTLE_SOUND_ID, SoundEvent.of(DOG_WHISTLE_SOUND_ID));
 
     public static final TagKey<Item> DOG_WHISTLES_TAG = TagKey.of(RegistryKeys.ITEM, new Identifier(MOD_ID, "dog_whistles"));
     public static final TagKey<Item> DYED_DOG_WHISTLES_TAG = TagKey.of(RegistryKeys.ITEM, new Identifier(MOD_ID, "dyed_dog_whistles"));

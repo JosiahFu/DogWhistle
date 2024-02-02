@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "dogwhistle:item/template_dog_whistle",
   "textures": {
-    "layer0": "dogwhistle:item/dog_whistle",
-    "layer1": "dogwhistle:item/cyan_dog_whistle_overlay"
+    "whistle": "dogwhistle:item/dog_whistle",
+    "whistle_overlay": "dogwhistle:item/cyan_dog_whistle_overlay"
   }
 }

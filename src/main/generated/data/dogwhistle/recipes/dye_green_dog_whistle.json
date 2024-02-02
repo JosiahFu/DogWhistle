@@ -8,37 +8,19 @@
     },
     [
       {
-        "item": "dogwhistle:black_dog_whistle"
-      },
-      {
-        "item": "dogwhistle:cyan_dog_whistle"
-      },
-      {
-        "item": "dogwhistle:white_dog_whistle"
-      },
-      {
-        "item": "dogwhistle:blue_dog_whistle"
-      },
-      {
-        "item": "dogwhistle:purple_dog_whistle"
+        "item": "dogwhistle:magenta_dog_whistle"
       },
       {
         "item": "dogwhistle:yellow_dog_whistle"
       },
       {
+        "item": "dogwhistle:black_dog_whistle"
+      },
+      {
         "item": "dogwhistle:red_dog_whistle"
       },
       {
-        "item": "dogwhistle:orange_dog_whistle"
-      },
-      {
-        "item": "dogwhistle:magenta_dog_whistle"
-      },
-      {
         "item": "dogwhistle:light_gray_dog_whistle"
-      },
-      {
-        "item": "dogwhistle:brown_dog_whistle"
       },
       {
         "item": "dogwhistle:lime_dog_whistle"
@@ -47,10 +29,28 @@
         "item": "dogwhistle:pink_dog_whistle"
       },
       {
-        "item": "dogwhistle:gray_dog_whistle"
+        "item": "dogwhistle:brown_dog_whistle"
+      },
+      {
+        "item": "dogwhistle:white_dog_whistle"
+      },
+      {
+        "item": "dogwhistle:cyan_dog_whistle"
+      },
+      {
+        "item": "dogwhistle:purple_dog_whistle"
+      },
+      {
+        "item": "dogwhistle:blue_dog_whistle"
+      },
+      {
+        "item": "dogwhistle:orange_dog_whistle"
       },
       {
         "item": "dogwhistle:light_blue_dog_whistle"
+      },
+      {
+        "item": "dogwhistle:gray_dog_whistle"
       },
       {
         "item": "dogwhistle:dog_whistle"
