@@ -1,7 +1,6 @@
 package archives.tater.dogwhistle;
 
 import net.minecraft.entity.EntityType;
-import net.minecraft.entity.passive.TameableEntity;
 import net.minecraft.entity.passive.WolfEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -28,7 +27,7 @@ public class DogWhistleItem extends Item {
         List<WolfEntity> wolves = world.getEntitiesByType(EntityType.WOLF, new Box(user.getBlockPos().add(-range, -range, -range), user.getBlockPos().add(range, range, range)), entity -> entity.isOwner(user) && isWolfAffected(entity));
         if (wolves.isEmpty()) {
             user.sendMessage(Text.translatable("item.dogwhistle.dog_whistle.nonefound"), true);
-        } else if (wolves.stream().noneMatch(TameableEntity::isSitting)) {
+        } else if (user.isSneaking()) {
             wolves.forEach(wolf -> wolf.setSitting(true));
             user.sendMessage(Text.translatable("item.dogwhistle.dog_whistle.sit"), true);
         } else {
@@ -38,6 +37,7 @@ public class DogWhistleItem extends Item {
             });
             user.sendMessage(Text.translatable("item.dogwhistle.dog_whistle.summon"), true);
         }
+        user.getItemCooldownManager().set(this, 40);
 
         return TypedActionResult.success(itemStack);
     }
